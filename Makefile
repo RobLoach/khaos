@@ -1,7 +1,6 @@
 
 # Binaries.
 mocha = ./node_modules/.bin/mocha \
-	--require gnode \
 	--require co-mocha \
 	--reporter spec \
 	--timeout 5000 \

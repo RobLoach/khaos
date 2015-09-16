@@ -5,7 +5,15 @@ The simplest project scaffolder. [http://khaos.io](http://khaos.io)
 
 ## Installation
 
-    $ npm install -g khaos
+1. Ensure at least [node](https://nodejs.org) 4.0.0 is installed:
+  ```
+  $ node --version
+  ```
+
+2. Install Khaos globally by using:
+  ```
+  $ npm install -g khaos
+  ```
 
 ## Getting Started
 
@@ -103,11 +111,11 @@ In addition to using the simple CLI to create new projects, you can use Khaos st
 Create a new Khaos instance with a `src` template directory, and that will output to a `dest` directory.
 
 #### #run(callback)
-  
+
 Run the prompting and scaffolding process and then `callback(err)`.
 
 #### #use(plugin)
-  
+
 Use a custom `plugin` function. Khaos uses [Metalsmith](http://metalsmith.io) internally, so the plugin is just a regular Metalsmith plugin, and all of the prompted answers are available as global metadata.
 
 ## Thanks!
